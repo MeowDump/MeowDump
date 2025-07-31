@@ -1,4 +1,4 @@
-> Release Date: XX/07/2025
+> Release Date: 31/07/2025
 > Version: v13
 > Source: Github
 > Author: 𝗠𝗘𝗢𝗪𝗻𝗮 💅 
