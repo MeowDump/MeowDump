@@ -1,0 +1,94 @@
+<svg width="700" height="180" viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Meowna">
+  <defs>
+    <linearGradient id="pookieGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb6e6" />
+      <stop offset="100%" stop-color="#ffdaf9" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" >
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ffb6e6" flood-opacity="0.6"/>
+    </filter>
+
+    <symbol id="hello-kitty" viewBox="0 0 100 100" >
+      <circle cx="50" cy="50" r="45" fill="#fff" stroke="#e88ece" stroke-width="3" />
+      <circle cx="33" cy="45" r="7" fill="#3c1d3f" />
+      <circle cx="67" cy="45" r="7" fill="#3c1d3f" />
+      <path d="M43 65 Q50 70 57 65" stroke="#3c1d3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path fill="#ff7fcc" stroke="#c9519a" stroke-width="1" d="M30 25c10-22 37-23 44-6 8 20-18 33-44 18-22 14-30-15-18-23z" />
+      <circle cx="48" cy="21" r="7" fill="#f45f9f" />
+    </symbol>
+
+    <symbol id="sparkle" viewBox="0 0 24 24">
+      <path fill="#f8c2e7" d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+    </symbol>
+
+  </defs>
+
+  <style>
+    .background {
+      fill: #fff0fb;
+    }
+
+    text.pookie {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 700;
+      font-size: 72px;
+      fill: url(#pookieGrad);
+      filter: url(#glow);
+      text-anchor: middle;
+      dominant-baseline: middle;
+      user-select: none;
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { filter: url(#glow); transform: scale(1); }
+      50% { filter: url(#glow); transform: scale(1.04); }
+    }
+
+    .sparkle {
+      fill: #f9c8f9;
+      opacity: 0.7;
+      animation: sparkle-move 3.5s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    @keyframes sparkle-move {
+      0%, 100% { transform: translateY(0) scale(0.7); opacity: 0.7; }
+      50% { transform: translateY(-8px) scale(1); opacity: 1; }
+    }
+
+    .sparkle:nth-child(1) {
+      animation-delay: 0s;
+      transform-box: fill-box;
+    }
+    .sparkle:nth-child(2) {
+      animation-delay: 1.2s;
+    }
+    .sparkle:nth-child(3) {
+      animation-delay: 2.4s;
+    }
+
+    .kitty {
+      fill: none;
+      stroke-width: 2;
+      animation: float 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+
+  <rect class="background" width="700" height="180" rx="24" ry="24" />
+
+  <use href="#hello-kitty" x="600" y="50" width="80" height="80" class="kitty" />
+
+  <use href="#sparkle" x="320" y="70" width="24" height="24" class="sparkle" />
+  <use href="#sparkle" x="370" y="110" width="20" height="20" class="sparkle" />
+  <use href="#sparkle" x="400" y="65" width="18" height="18" class="sparkle" />
+
+  <text class="pookie" x="50%" y="115">MEOW</text>
+</svg>
