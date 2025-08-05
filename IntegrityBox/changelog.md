@@ -1,29 +1,13 @@
-> Release Date: 31/07/2025
-> Version: v13
+> Release Date: XX/08/2025
+> Version: v14
 > Source: Github
 > Author: 𝗠𝗘𝗢𝗪𝗻𝗮 💅 
 
-• Improved WEBUI functions 
-• Improved compatibility with latest Android version  
-• Code cleanup and minor performance optimizations  
-• Reduced module size and improved loading times  
-• Refactored scripts for better maintainability  
-• Updated logic for improved stability  
-• Fixed detection issues on certain devices  
-• Resolved bootloop on specific ROMs  
-• Corrected file permissions causing installation failures  
-• Fixed rare crash during boot phase  
-• Addressed module not initializing properly on some devices  
-• Updated PIF Fork's fingerprint
-• Updated PIF Inject's fingerprint
-• Enhanced consistency of spoofed responses  
-• Modularized core functions for easier updates  
-• Updated internal checks for new Magisk versions  
-• Improved support for Zygisk and DenyList handling  
-• Introduced optional debug logging
-• Logging output enhanced for troubleshooting  
-• Removed deprecated features no longer needed  
-• Cleaned up unused scripts and outdated code blocks  
-• Module banner will change everytime you reboot (if your manager supports)
-• Added icon shortcut support for MMRL
-• Added 60s cooldown to avoid script execution spam 
+• Updated WEB UI
+• Added Simplified Chinese translation in WEBUI thanks @
+• Fixed banner image error in manager for ksun users
+• Shipped Integrity Box popup Toaster as user app
+• Switched to sha256 + md5 file integrity verification
+• Added 2 factor Authentication in keybox updator for user safety
+• Dropped openssl deletation from termux dir
+• Updated boot hash script
