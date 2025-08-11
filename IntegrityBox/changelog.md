@@ -24,4 +24,5 @@
 - Fixed inbuilt spoofing conflict on Pixelage ROM
 - Added playstore version check with tutorial fix
 - Updated CSS & various (34+) shell scripts
+- Create `skip` file in internal storage if you want to skip toaster installation
 - A few more changes I don't remember + no one cares
