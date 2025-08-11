@@ -22,5 +22,6 @@
 - Added credits to supporters in WEBUI
 - Optimised WEBUI
 - Fixed inbuilt spoofing conflict on Pixelage ROM
-- Added playstore version check with tutorial fix 
+- Added playstore version check with tutorial fix
+- Updated CSS & various (34+) shell scripts
 - A few more changes I don't remember + no one cares
