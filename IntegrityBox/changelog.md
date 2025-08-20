@@ -1,7 +1,8 @@
 > Release Date: 20/08/2025
-> Version: v16
 > Source: Github
 > Author: 𝗠𝗘𝗢𝗪𝗻𝗮 💅 
+
+# [HOTFIX] FIXED UNEXPECTED CRASH ON MAGISK ALPHA
 
 - Fixed unexpected delay in action button(script) expectation.
 
