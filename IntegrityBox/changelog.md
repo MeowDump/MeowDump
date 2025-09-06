@@ -1,61 +1,26 @@
-> Release Date: 20/08/2025
+> Release Date: 06/09/2025
 > Source: Github
 > Author: 𝗠𝗘𝗢𝗪𝗻𝗮 💅 
 
-# [HOTFIX] FIXED UNEXPECTED CRASH ON MAGISK ALPHA
+- Updated Keybox
+- Cleaned debug fingerprint by default 
+- Introduced Anti Tampering Protection 
+- Introduced Self Destruct mode
+- Added SHA512+SHA256+MD5 hash with salt verification on install
+- Fixed banned kernel false positive indicator 
+- Create NoLineageProp flag in /data/adb/Box-Brain to clean LineageOS props
+- Added verification summary on install 
+- Added spoofVendingSdk support for PifFork spoofing [WEBUI]
+- Fixed delay handler for KSU [ACTION]
+- Fixed TS patch button not working [WEBUI]
+- Dropped target.txt auto update on boot  
+- Introduced hide/unhide extra features button in WebUI  
+- Dropped modal auto close switch [WEBUI]
+- Fixed target & keybox backup restore bug on uninstall 
+- Updated supporter list [WEBUI]
+- Description will now refresh on boot instead of action
 
-- Fixed unexpected delay in action button(script) expectation.
+# A SHORT REMINDER 😉 
+_You unlocked your bootloader to customize your device to your needs, not to fix every random detection that 90% of apps don’t even care about_
 
-- Now default target packages will be updated based on TEE status too, instead of forcing leaf certificate hack mode for devices with non broken TEE
-
-- Disable intro in WebUI by default & added option to re-enable it in WebUI menu.
-
-- Improved Keybox updater.
-
-- Optimised installation script.
-
-- Added more configuration flags
-
-- Fixed Lsposed logs spoofing failure 
-
-- Replaced simple "echo" outputs with structured logging mechanism for better traceability.
-  
-- Added a consistent logging format including timestamp for each log entry to improve readability and debugging.
-  
-- Implemented log file capturing using "tee -a" to ensure both console visibility and file persistence of logs.
-  
-- Ensured that all network retry attempts are logged with clear retry counters for transparency.
-  
-- Improved reliability of network connectivity checks by introducing a maximum retry limit with controlled loop execution.
-  
-- Enhanced error handling by introducing explicit exit codes upon failure conditions for better integration with other scripts.
-  
-- Suppressed unnecessary command outputs to keep logs clean and focused only on meaningful information.
-  
-- Introduced graceful exit after maximum retry attempts to avoid indefinite loops in case of no internet connectivity.
-  
-- Standardized indentation, spacing, and code structure for improved readability and maintainability.
-  
-- Consolidated redundant command sequences to simplify the flow and reduce script overhead.
-  
-- Improved user feedback by ensuring retry attempts and failure messages are displayed consistently.
-  
-- Added robust handling of slow or unstable network scenarios to minimize false negatives.
-  
-- Ensured compatibility with BusyBox environment by using portable shell syntax.
-  
-- Improved overall script maintainability by reducing noise and making error handling self-explanatory.
-  
-- Strengthened integration readiness by introducing reliable log capturing that can be parsed or shared easily.
-  
-- Ensured that no sensitive data or unnecessary verbose output is written into the log files.
-  
-- Refined exit behavior to prevent accidental continuation of dependent operations in case of failure.
-  
-- Improved script resilience under low-resource or high-latency conditions.
-  
-- General code cleanup to maintain long-term stability.
-
-- Custom fonts will be added in next update (got no time to find fonts).
-
-- Logs will be zipped automatically, if you face any issue, just send me the log zip file
+`Stop wasting time on unnecessary fixes & focus on what matters`
