@@ -1,4 +1,4 @@
-> Release Date: 06/09/2025
+> Release Date: 07/09/2025
 > Source: Github
 
 - Fixed “operation not permitted” error during installation.
