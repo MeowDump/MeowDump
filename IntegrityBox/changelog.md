@@ -2,25 +2,19 @@
 > Source: Github
 > Author: 𝗠𝗘𝗢𝗪𝗻𝗮 💅 
 
-- Updated Keybox
-- Cleaned debug fingerprint by default 
-- Introduced Anti Tampering Protection 
-- Introduced Self Destruct mode
-- Added SHA512+SHA256+MD5 hash with salt verification on install
-- Fixed banned kernel false positive indicator 
-- Create NoLineageProp flag in /data/adb/Box-Brain to clean LineageOS props
-- Added verification summary on install 
-- Added spoofVendingSdk support for PifFork spoofing [WEBUI]
-- Fixed delay handler for KSU [ACTION]
-- Fixed TS patch button not working [WEBUI]
-- Dropped target.txt auto update on boot  
-- Introduced hide/unhide extra features button in WebUI  
-- Dropped modal auto close switch [WEBUI]
-- Fixed target & keybox backup restore bug on uninstall 
-- Updated supporter list [WEBUI]
-- Description will now refresh on boot instead of action
+- Fixed “operation not permitted” error during installation.
+- Removed self-destruct mode.
+- Fixed Hide PIF Detection button not working.
+- Cleaned up unnecessary code.
+- Changed module ID.
+- Fixed module description not updating for Magisk users.
+- Fixed action summary result bug.
+- Improved PIF fork spoofing script
+- Removed anti-tampering detection, (It’s not stable yet and needs a lot more testing and fine-tuning. I don’t have enough time to keep it in right now. Maybe in the future when I get the chance, it will come back in a better form)
 
 # A SHORT REMINDER 😉 
-_You unlocked your bootloader to customize your device to your needs, not to fix every random detection that 90% of apps don’t even care about_
+1) Always check play integrity from PlayStore's developer options. | Uninstall playstore update if you're unable to pass 🟢🟢🟢
 
-`Stop wasting time on unnecessary fixes & focus on what matters`
+2) You unlocked your bootloader to customize your device to your needs, not to fix every random detection that 90% of apps don’t even care about
+
+Stop wasting time on unnecessary fixes & focus on what matters
