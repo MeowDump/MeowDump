@@ -1,23 +1,46 @@
 > Release Date: 09/09/2025
 > Source: Github
 
-- Added WebUI support for spoofing PifFork’s advanced settings 
-- Introduced SELinux spoofer (create /data/adb/Box-Brain/selinux to force spoofing to enforcing)
-- Fixed Hide Pif detection button not working
-- Updated WebUI shortcut icon
-- Updated WebUI-X configuration file with latest changes
-- Dropped legacy PifFork spoof shell script (now handled by WebUI)
-- Fixed WebUI resizing issue when enabling hidden features
-- Added cleanup routine to wipe leftover files on uninstallation
-- Forced ksu-webui as the default WebUI engine
-- Improved installation and upgrade logic for cleaner dirty flashes
-- Optimized script execution speed and reduced unnecessary overhead
-- Enhanced error handling and fail-safe mechanisms
-- Added japanese translation, thanks @ot_inc
-- Improved compatibility with recent Magisk and KernelSU builds
-- Refined logging output for easier debugging
-- Polished UI animations and theme handling
-- Minor code cleanup and refactoring for long-term maintainability
+- Added Playstore auto update disabler
+- Added Spoof debug fingerprint toggle 
+- Added Spoof build tag toggle 
+- Added Spoof debug build toggle 
+- Added repair mode (experimental)
+- Added reset Playstore toggle (enables auto update)
+- Reduced module size by 80%
+
+- Depreciated add system apps to target list function 
+- Depreciated enable/disable intro button
+- Depreciated switch to AOSP keybox button 
+- Depreciated enable/disable modal timeout button
+- Depreciated hidded webui function html
+- Depreciated Derpfest spoofing button 
+- Depreciated XiaomiEU spoofing button 
+- Depreciated HelluvaOS spoofing button 
+- Depreciated PixelOS spoofing button 
+- Depreciated Derpfest spoofing button 
+- Depreciated join telegram channel button 
+- Depreciated module info button 
+- Depreciated enable inbuilt GMS spoofing button 
+- Depreciated banned keybox list button 
+- Depreciated Prop detection button 
+- Depreciated custom intro font
+- Depreciated aosp keybox.xml
+- Depreciated HMA config.json
+- Depreciated module toggle mode switcher
+- Depreciated background sparkles in webui
+- Depreciated game
+- Depreciated report shell script & merged into webui 
+- Depreciated community support shell script & merged into webui
+
+- Improved flagged apps detection 
+- Improved module description updater
+- Improved webui interface 
+
+- Replaced linotte with cocon font
+- Nuked webui border
+- Nuked unused codes
+- Merged debug.sh in late start service 
 
 ### A SHORT REMINDER 😉 
 1) Always check play integrity from PlayStore's developer options
