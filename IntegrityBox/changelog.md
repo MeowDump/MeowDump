@@ -44,6 +44,6 @@
 
 ### A SHORT REMINDER 😉 
 1) Always check play integrity from PlayStore's developer options
-2) Uninstall playstore update if you're unable to pass 🟢🟢🟢 / Spoof PIF props using WEBUI
+2) Uninstall playstore update if you're unable to pass 🟢🟢🟢 / or enable Spoof provider from PIF webui
 3) You unlocked your bootloader to customize your device to your needs, not to fix every random detection that 90% of apps don’t even care about
 4) Stop wasting time on unnecessary fixes & focus on what matters
