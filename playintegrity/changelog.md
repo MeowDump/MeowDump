@@ -1,46 +1,30 @@
 > Release Date: 09/09/2025
 > Source: Github
 
-- Implemented notice board in module description, you'll get updates of banned keyboxes, news & tips wen u run action
-- Synced accent monet into sub-webui (PIF fork & Flag control)
+### NOTE: For those who are using ROM's inbuilt gms spoofing, pls create /data/adb/Box-Brain/gms  otherwise it’ll disable inbuilt pixel spoofing. Users who are using the PIF module can ignore this point.
 
-- Updated action script 
-- Updated WebUI-X config 
-- Updated TS boot patch to september 2025
-- Added toggle to update target list on boot
-- Fixed broken translations in WEBUI
-- Fixed invalid button markup by removing broken inline <a> tags with onclick
-- Simplified Translation lable function by trimming unnecessary fallback branches
-
-- Merged vending shell script into html
-- Merged start shell script into html
-- Merged stop shell script into html
-
-- Dropped description updater
-- Dropped all description indicators 
-- Dropped redundant inline <style> blocks that duplicated existing style.css rule  
-- Dropped custom font support from main, PIF spoofer & flag control WEBUI 
-- Dropped unused container and wrapper element
-- Dropped redundant modals and popup structure
-- Dropped duplicate or unused style rule
-- Dropped old theme variables that were no longer referenced.
-- Dropped script references to deprecated or deleted file
-- Dropped unused intro-overlay blocks
-- Dropped unused SCRIPT_POPUPS entries
-- Dropped deprecated attributes and inline style
-- Dropped translation functions that were not invoked.
-- Dropped obsolete animations and keyframe
-- Dropped old utility functions that served no purpose.
-- Dropped unnecessary comments that added clutter.
-- Dropped obsolete buttons, links, and placeholder
-- Dropped unused classes for buttons, cards, and panel
-- Dropped redundant spacing, margins, and layout definition
-- Dropped redundant modalBackdrop reassignments inside open and closeModal function 
-
-- Streamlined folder structure by removing unused file
-- Reduced code redundancy and improved maintainability.
-- Improved readability by deleting experimental code.
-- Ensured only actively used code remains in the project.
+- Added option to enable/disable pif advanced settings on action from webui (module settings)
+- Disabled fetch fp with advanced settings during installation to pass strong without spoof provider on pixel spoofed ROMs
+- Disabled keybox lock for seamless fetching
+- Force update pushed, any previous version will no longer work
+- Fixed auto update target list on boot not working
+- Removed playstore auto update disabler leftover code
+- Updated disable inbuilt spoofing related functions & fixed false positive webui indicator
+- fixed internet check function not working during installation
+- Updated keybox updater script
+- Added option to hide TWRP detection
+- Added option to fetch fingerprint on boot (internet is required)
+- Added logging support for inbuilt spoofing related functions 
+- Fixed spoof encryption not working when reset lineage props flag was enabled & added a separate toggle to control it
+- Removed boot hash fixer shell script & its dependency on susfs, updated inbuilt fixer
+- Removed PIF inject spoof script as it's webui already handles setting values
+- Added action delay handler for ksu & apatch users
+- Added lineage prop spoofing indicator in webui
+- Dropped unnecessary deletions from cleanup script
+- Fixed module description message not updating after notice update
+- Nuked everything related to keybox from installation script, keybox updater script now handles it
+- Dropped support for susfs
+- Maybe something here & there. This is what i remember ;)
 
 ### A SHORT REMINDER 😉 
 1) Always check play integrity from PlayStore's developer options
