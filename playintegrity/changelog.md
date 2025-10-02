@@ -1,31 +1,27 @@
-> Release Date: 09/09/2025
+> Release Date: 03/10/2025
 > Source: Github
 
-### NOTE: For those who are using ROM's inbuilt gms spoofing, pls create /data/adb/Box-Brain/gms  otherwise it’ll disable inbuilt pixel spoofing. Users who are using the PIF module can ignore this point.
+- Added support to hide persist.sys.gphooks.enable & persist.sys.pphooks.enable detection using HIDE PIF DETECTION button
+- Fixed internet check function not working on installation 
+- Deprecated migrate.sh execution (pif fork)
+- Reverted changes related to advanced settings 
 
-- Added option to enable/disable pif advanced settings on action from webui (module settings)
-- Disabled fetch fp with advanced settings during installation to pass strong without spoof provider on pixel spoofed ROMs
-- Disabled keybox lock for seamless fetching
-- Force update pushed, any previous version will no longer work
-- Fixed auto update target list on boot not working
-- Removed playstore auto update disabler leftover code
-- Updated disable inbuilt spoofing related functions & fixed false positive webui indicator
-- fixed internet check function not working during installation
-- Updated keybox updater script
-- Added option to hide TWRP detection
-- Added option to fetch fingerprint on boot (internet is required)
-- Added logging support for inbuilt spoofing related functions 
-- Fixed spoof encryption not working when reset lineage props flag was enabled & added a separate toggle to control it
-- Removed boot hash fixer shell script & its dependency on susfs, updated inbuilt fixer
-- Removed PIF inject spoof script as it's webui already handles setting values
-- Added action delay handler for ksu & apatch users
-- Added lineage prop spoofing indicator in webui
-- Dropped unnecessary deletions from cleanup script
-- Fixed module description message not updating after notice update
-- Nuked everything related to keybox from installation script, keybox updater script now handles it
-- Dropped support for susfs
-- Maybe something here & there. This is what i remember ;)
-
+### PIF fork WebUI:
+- Improved auto-apply for toggles (Apply button removed, changes apply instantly).  
+- Added backup/restore support for config using custom.pif.json.bak.  
+- Added process killing support for both Play Service & Play Store, when restartMode=gms.  
+- Added reboot option after saving when restartMode=reboot.  
+- Centralized all paths and settings into a CONFIG object.  
+- Toggle state now saved as JSON instead of key=value lines.  
+- Improved sed regex for safer JSON field replacement.  
+- Theme is now stored only in localStorage (no longer written to state file).  
+- Popup notifications now batch display for all toggles in one save.  
+- Removed Apply button and its functionality.  
+- Removed secondary button style (btn.secondary).  
+- Removed writing theme state into toggle_state.json.  
+- Removed key=value style state file output.  
+- Removed old popup CSS block (popup still works with shared styling).
+  
 ### A SHORT REMINDER 😉 
 1) Always check play integrity from PlayStore's developer options
 2) Uninstall playstore update if you're unable to pass 🟢🟢🟢 / or enable Spoof provider from PIF webui
