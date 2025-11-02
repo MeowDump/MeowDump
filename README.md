@@ -1,7 +1,18 @@
-<div style="text-align: center;">
-  <img src="./mona.svg" alt="Mona, also known as MEOWNa" width="700" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
-</div>
+![Mona, also known as MEOWNa](./mona.svg)
 
-<h1 style="font-family: 'Arial', sans-serif; color: #333; font-size: 2rem; margin-top: 20px;">Hi, I'm Mona, also known as <span style="font-weight: bold; font-style: italic; color: #FF69B4;">𝗠𝗘𝗢𝗪𝗻𝗮 💅</span></h1>
+# Hi, I'm Mona, also known as 𝗠𝗘𝗢𝗪𝗻𝗮 💅
+♀️(she/her)
 
-<p style="font-family: 'Arial', sans-serif; color: #555; font-size: 1.1rem;">A law student from New Delhi, India.</p>
+**A law student from New Delhi, India.**
+
+Learning inspires me, and exploring new ideas excites me. I’m driven by curiosity and love passing on knowledge in meaningful ways. **I code for the joy of exploration, not for recognition**, turning ideas into reality along the way.
+
+_Outside of coding, I love :_  
+- Watching sci-fi movies
+- Reading novels
+- Cooking
+- Writing poems
+- Traveling
+- Painting
+
+_Currently, I work full-time at the New Delhi High Court._
