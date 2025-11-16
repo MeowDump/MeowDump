@@ -1,5 +1,13 @@
-> Release Date: 12/10/2025
+> Release Date: 16/11/2025
 > Source: Github
-> NOTICE: Kindly use the latest PIF Fork from workflow run
+> NOTICE: Kindly use the latest Play Integrity Fork from workflow run
 
-# Full rebase over previous code with lot of improvements and various new features
+# Changelog 
+- Added option to disable inbuilt GMS spoofing
+- Fixed compatibility issue on latest version of Apatch
+- Fixed Lineage detection false positive dashboard indicator & improved spoofing detector
+- [Feature Request] added option to nuke saved module logs
+- [Feature Request] added option to hide gapp logs 
+- Dropped WebUI support for PIF inject
+- Nuked some unnecessary functions
+- Minor fixes & improvements
