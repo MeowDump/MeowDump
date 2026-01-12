@@ -1,0 +1,3 @@
+- New WebUI interface
+- Added support for more crap apps introduced by Google in recent QPR update
+- Minor fixes & improvements
