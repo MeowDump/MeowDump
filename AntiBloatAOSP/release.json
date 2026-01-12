@@ -1,0 +1,6 @@
+{
+  "versionCode": 4000,
+  "version": "4",
+  "zipUrl": "https://github.com/MeowDump/MeowDump/releases/download/v4/v4-AntiBloat-AOSP-12-01-2026.zip",
+  "changelog": "https://raw.githubusercontent.com/MeowDump/MeowDump/main/AntiBloatAOSP/changelog.md"
+}
