@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="220"
+     viewBox="0 0 800 220"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">MONA</title>
+  <desc id="desc">OK</desc>
+
+  <defs>
+    <clipPath id="textClip">
+      <text x="177" y="119"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="58"
+            font-weight="700"
+            letter-spacing="-2.5">MEOWna</text>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="220" fill="#000000"/>
+
+  <g fill="none" stroke="#ffffff" stroke-width="1.5">
+    <path d="M744 32 H768 V56" opacity="0.7">
+      <animate attributeName="opacity"
+               values="0.2;0.9;0.2"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M32 164 V188 H56" opacity="0.5"/>
+  </g>
+
+  <g transform="translate(92 110)"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="3.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M-49 8 L-49 -36 L-19 -18
+             Q0 -27 19 -18 L49 -36 L49 8
+             Q49 43 0 49 Q-49 43 -49 8 Z"
+          stroke-dasharray="310"
+          stroke-dashoffset="310">
+      <animate attributeName="stroke-dashoffset"
+               from="310" to="0"
+               dur="2s" fill="freeze"/>
+    </path>
+
+    <g opacity="0">
+      <path d="M-28 3 L-17 11 L-28 19"/>
+      <path d="M28 3 L17 11 L28 19"/>
+      <path d="M-4 27 L0 31 L4 27"/>
+
+      <animate attributeName="opacity"
+               values="0;1"
+               begin="1.5s" dur="0.7s"
+               fill="freeze"/>
+    </g>
+
+    <animateTransform attributeName="transform"
+                       type="translate"
+                       values="92 114;92 106;92 114"
+                       dur="5s"
+                       repeatCount="indefinite"
+                       additive="sum"/>
+  </g>
+
+  <g opacity="0">
+    <text x="177" y="119"
+          fill="#ffffff"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="58"
+          font-weight="700"
+          letter-spacing="-2.5">MEOWna</text>
+
+    <animate attributeName="opacity"
+             values="0;1"
+             begin="0.8s"
+             dur="1.2s"
+             fill="freeze"/>
+  </g>
+
+  <g clip-path="url(#textClip)">
+    <rect x="100" y="50"
+          width="100" height="85"
+          fill="#ffffff" opacity="0">
+      <animate attributeName="x"
+               values="100;700"
+               begin="2s"
+               dur="3s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;0.22;0"
+               keyTimes="0;0.5;1"
+               begin="2s"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <line x1="180" y1="141"
+        x2="435" y2="141"
+        stroke="#ffffff"
+        stroke-width="1"
+        opacity="0">
+    <animate attributeName="opacity"
+             values="0;0.35"
+             begin="1.5s"
+             dur="1s"
+             fill="freeze"/>
+  </line>
+
+  <text x="180" y="163"
+        fill="#bdbdbd"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10"
+        letter-spacing="3"
+        opacity="0">
+    LOOKING FOR NEW BLIND HATERS
+    <animate attributeName="opacity"
+             values="0;1"
+             begin="1.8s"
+             dur="1s"
+             fill="freeze"/>
+  </text>
+
+</svg>
